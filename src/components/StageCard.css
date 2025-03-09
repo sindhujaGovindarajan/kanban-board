@@ -1,0 +1,36 @@
+.card {
+  background-color: white;
+  color: #444;
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+}
+.stageCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 80vh;
+  min-width: 22%;
+}
+.stageName {
+  text-align: center;
+}
+.taskCard {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: none;
+}
+.taskCard button {
+  color: blueviolet;
+  background: none !important;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.taskCard button:disabled {
+  color: lightslategray;
+  cursor: not-allowed;
+}

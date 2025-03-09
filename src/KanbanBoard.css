@@ -1,0 +1,6 @@
+.kanbanBoard {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+  background-color: whitesmoke;
+}
